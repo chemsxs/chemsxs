@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frases Inspiradoras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Frases Inspiradoras</h1>
+
+        <!-- Selector de estado de ánimo -->
+        <div class="mood-selector">
+            <label for="estado">Selecciona tu estado de ánimo:</label>
+            <select id="estado">
+                <option value="">--Elige tu ánimo--</option>
+                <option value="feliz">Feliz</option>
+                <option value="motivado">Motivado</option>
+                <option value="triste">Triste</option>
+                <option value="estresado">Estresado</option>
+            </select>
+        </div>
+
+        <!-- Área de frase -->
+        <div class="frase-container">
+            <p id="frase">Haz clic en "Nueva frase" o selecciona tu estado de ánimo.</p>
+        </div>
+
+        <!-- Botones -->
+        <div class="buttons">
+            <button id="nueva-frase">Nueva frase</button>
+            <button id="copiar">Copiar frase</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
